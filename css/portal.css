@@ -1,6 +1,38 @@
-h1 {
+h1, footer {
    color: white;
    background-color: darkcyan; 
-   padding: 1.25rem;
+   padding: 1.1rem;
    border-radius: 15px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.5;;
+}
+
+h1, h3, ul, footer {
+    margin: 1.25rem auto;
+    max-width: 720px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-top: 2em;
+    border-bottom: black solid 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    font-size: 14px;
+}
+
+img {
+    float: right;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
 }
