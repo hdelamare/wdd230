@@ -1,0 +1,22 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    max-width: 45rem;
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: #2D3339;
+}
+
+main a {
+    display: block;
+}
