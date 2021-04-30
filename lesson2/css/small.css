@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 body {
     font-size: 18px;
     line-height: 1.5;
@@ -6,6 +8,7 @@ body {
 header, main, footer {
     margin: 1.25rem auto;
     max-width: 50rem;
+    font-family: 'Varela Round', 'Lucida Sans', sans-serif;
 }
 
 h1, h2 {
