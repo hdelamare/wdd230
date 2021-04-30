@@ -5,7 +5,7 @@ body {
 
 header, main, footer {
     margin: 1.25rem auto;
-    max-width: 45rem;
+    max-width: 50rem;
 }
 
 h1, h2 {
@@ -63,6 +63,7 @@ h3 {
     border-top: 2px solid #2d3339;
     border-left: 2px solid #2d3339;
     border-right: 2px solid #2d3339;
+    text-align: center;
 }
 
 h4, main a {
