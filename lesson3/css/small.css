@@ -1,4 +1,8 @@
 header img {
     height: 256px;
-    width: 312px;
+    width: 256px;
+}
+
+span {
+    font-weight: 300;
 }
