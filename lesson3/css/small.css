@@ -1,8 +1,125 @@
-header img {
-    height: 256px;
-    width: 256px;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Mandali&display=swap');
+
+body {
+    background-color: #EBEBEB;
+    line-height: 1.5rem;
 }
 
-span {
-    font-weight: 300;
+h1, h3, h4 {
+    font-family: 'Mandali', sans-serif;
+}
+
+p, h2, li, table {
+    font-family: 'DM Sans', sans-serif;
+}
+
+header, main, nav, footer {
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+nav {
+    margin-top: -1.25rem;
+    background-color: #626C66;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #AD343E;
+}
+
+header {
+    background-color: #4464AD;
+    display: block;  
+}
+
+header h1 {
+    margin-top: -2rem;
+    color: #E5B012;
+    text-align: center;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: -0.5rem;
+}
+
+header img {
+    display: block;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.section1, .section2, .section3 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.section1 p, .section2 p {
+    margin-top: -0.75rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #4464AD;
+    color: white;
+    padding: .25rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E5B012;
+}
+
+footer a:hover {
+    color: white;
+}
+
+ #persona1 img, #persona2 img {
+    width: 50%;
+}
+
+#persona1, #persona2 {
+    text-align: center;
+}
+
+#persona1 ul, #persona2 ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#persona1 ul li, #persona2 ul li {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: left;
+}
+
+#persona2 {
+    padding-top: 2rem;
+}
+
+#persona1 {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
 }
