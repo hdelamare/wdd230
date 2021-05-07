@@ -99,13 +99,13 @@ footer a:hover {
     color: white;
 }
 
-.section2 ul {
+.section2 ul, .section3 ul {
     list-style-type: none;
     padding-bottom: 1rem;
     border-bottom: 2px solid #403D39;
 }
 
-.section2 ul li {
+.section2 ul li, .section3 ul li {
     text-align: left;
     margin-left: -2rem;
 }
