@@ -6,4 +6,16 @@
         flex: 1 1 100%; 
     }
 
+    header img {
+        width: 256px;
+    }
+
+    header h1 {
+        margin-top: -3rem;
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
 }
