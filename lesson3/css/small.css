@@ -6,11 +6,11 @@ body {
 }
 
 h1, h3, h4 {
-    font-family: 'Mandali', sans-serif;
+    font-family: 'Mandali', Helvetica , sans-serif;
 }
 
 p, h2, li, table {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', Arial, sans-serif;
 }
 
 header, main, nav, footer {
