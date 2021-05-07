@@ -18,4 +18,8 @@
     header h2 {
         font-size: 1.5rem;
     }
+
+    .section2 img {
+        width: 300px;
+    }
 }

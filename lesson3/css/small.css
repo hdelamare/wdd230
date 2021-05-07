@@ -99,30 +99,22 @@ footer a:hover {
     color: white;
 }
 
- #persona1 img, #persona2 img {
-    width: 50%;
-}
-
-#persona1, #persona2 {
-    text-align: center;
-}
-
-#persona1 ul, #persona2 ul {
+.section2 ul {
     list-style-type: none;
-    overflow: hidden;
-}
-
-#persona1 ul li, #persona2 ul li {
-    margin-left: 4rem;
-    margin-right: 4rem;
-    text-align: left;
-}
-
-#persona2 {
-    padding-top: 2rem;
-}
-
-#persona1 {
     padding-bottom: 1rem;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #403D39;
+}
+
+.section2 ul li {
+    text-align: left;
+    margin-left: -2rem;
+}
+
+.section2 img {
+    display: block;
+    padding-top: 2rem;
+    margin-top: -2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
 }
