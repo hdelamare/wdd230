@@ -32,4 +32,8 @@
     .section-box {
         max-width: 40rem;
     }
+
+    footer {
+        max-width: 55rem;
+    }
 }
