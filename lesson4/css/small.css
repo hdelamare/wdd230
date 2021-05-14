@@ -119,3 +119,8 @@ footer a:hover {
     color: white;
 }
 
+.active {
+    color: white;
+    background-color: #AD343E;
+}
+
