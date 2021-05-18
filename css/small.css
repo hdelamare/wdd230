@@ -43,6 +43,7 @@ header img {
 
 ul li {
     font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
 }
 
 a {
