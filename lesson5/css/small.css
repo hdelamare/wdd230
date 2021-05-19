@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Mandali&display=swap');
+
+body {
+    background-color: #EBEBEB;
+    line-height: 1.5rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Mandali', Helvetica , sans-serif;
+}
+
+p, #motto, li {
+    font-family: 'DM Sans', Arial, sans-serif;
+}
+
+header, main, nav, footer {
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #626C66;
+    margin-top: -1rem;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #AD343E;
+}
+
+.responsive li {
+    display: block;
+}
+
+header {
+    background-color: #533A71;
+    display: block;  
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-top: -2.5rem;
+    color: #E5B012;
+    text-align: center;
+}
+
+header #motto {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: -0.5rem;
+}
+
+header img {
+    display: block;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+    margin-top: -2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 21px;
+}
+
+.section-box {
+    align-self: center;
+    font-size: 12px;
+    background-color: lightgray;
+    margin: 1.25rem auto;
+    padding: 0.25rem;
+    padding-left: 1rem;
+    border: 1px solid #626C66;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #533A71;
+    color: white;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E5B012;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.active {
+    color: white;
+    background-color: #AD343E;
+}
+
