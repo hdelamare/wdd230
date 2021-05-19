@@ -36,4 +36,25 @@
     footer {
         max-width: 55rem;
     }
+
+    .hero-div {
+        max-width: 55rem;
+    }
+
+    .hero-img {
+        height: 200px;
+    }
+
+    .weather-summary {
+        top: 40px;
+        left: 40px;
+    }
+
+    .forecast-title {
+        display: block;
+    }
+
+    .forecast-div {
+        display: flex;
+    }
 }
