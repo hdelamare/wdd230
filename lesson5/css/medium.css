@@ -60,4 +60,13 @@
     .forecast-div {
         display: flex;
     }
+
+    .article h3 {
+        margin-top: 0;
+    }
+
+    .article img {
+        float: right;
+        margin: 0.5rem;
+    }
 }
