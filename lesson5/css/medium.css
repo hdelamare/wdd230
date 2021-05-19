@@ -61,6 +61,10 @@
         display: flex;
     }
 
+    .article {
+        max-width: 48rem;
+    }
+
     .article h3 {
         margin-top: 0;
     }
