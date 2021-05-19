@@ -5,7 +5,7 @@ body {
     line-height: 1.5rem;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Mandali', Helvetica , sans-serif;
 }
 
@@ -178,8 +178,37 @@ footer a:hover {
     color: white;
 }
 
-
-
 .weather-summary ul {
     list-style: none;
 }
+
+.forecast-title {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.forecast-div {
+    margin: 10px auto;
+    display: flex;
+    width: 460px;
+    height: 160px;
+    background-color: #626C66;
+    color: white;
+}
+
+.forecast-box {
+    flex: 1 1 100%;
+    text-align: center;
+    border: 1px solid #333;
+    margin-left: -1px;
+}
+
+.forecast-box img {
+    margin: -1.5rem auto 0 auto;
+    width: 80px;
+}
+
+.forecast-box p {
+    margin-top: -0.8rem;
+}
+
