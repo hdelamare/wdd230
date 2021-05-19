@@ -121,7 +121,8 @@ footer a:hover {
 
 .active {
     color: white;
-    background-color: #AD343E;
+    background-color: #57605B;
+    font-weight: bold;
 }
 
 .hero-div {
