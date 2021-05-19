@@ -38,11 +38,14 @@
     }
 
     .hero-div {
-        max-width: 55rem;
+        max-width: 50rem;
+        max-height: 300px;
+        margin-bottom: 7rem;
     }
 
     .hero-img {
-        height: 200px;
+        max-width: 50rem;
+        max-height: 300px;
     }
 
     .weather-summary {
