@@ -28,4 +28,8 @@
     .section-box {
         max-width: 50rem;
     }
+
+    .banner {
+        margin-bottom: 0;
+    }
 }

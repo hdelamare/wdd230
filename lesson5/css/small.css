@@ -160,6 +160,7 @@ footer a:hover {
   padding: 0.3rem 0.2rem 0.2rem 1.5rem;
   box-shadow: 0 0 30px #777;
   max-width: 200px;
+  border-radius: 15%;
 }
 
 .weather-summary h3 {
@@ -319,3 +320,20 @@ footer a:hover {
 .contact-img {
     display: none;
 }
+
+.banner {
+  background: radial-gradient(#F9E8B4, #F1CA55, #E5B012);
+  margin: 0 auto 2rem auto;
+  max-width: 60rem;
+  padding-top: 1rem;
+  text-align: center;
+  color: #ad343e;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.banner div {
+  margin-top: -1rem;
+}
+
