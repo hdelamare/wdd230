@@ -8,7 +8,7 @@
     const dayName = days[d.getDay()];
     const monthName = months[d.getMonth()];
     const year = d.getFullYear();
-    const date = d. getDate();
+    const date = d.getDate();
 
     const dateFormatted = `${dayName}, ${date} ${monthName} ${year}`;
 
