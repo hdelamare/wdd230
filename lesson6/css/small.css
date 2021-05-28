@@ -98,16 +98,6 @@ main h2 {
   font-size: 21px;
 }
 
-.section-box {
-  align-self: center;
-  font-size: 12px;
-  background-color: lightgray;
-  margin: 1.25rem auto;
-  padding: 0.25rem;
-  padding-left: 1rem;
-  border: 1px solid #626c66;
-}
-
 footer {
   text-align: center;
   background-color: #533a71;
