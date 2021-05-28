@@ -1,9 +1,9 @@
 let temp = document.querySelector('#temp').innerHTML;
 let speed = document.querySelector('#speed').innerHTML;
 
-if ((temp <= 50) || (speed > 3)) {    
+if ((temp <= 50) && (speed > 3)) {    
     let result = windChill(temp, speed)
-    document.querySelector('#windchill').innerHTML = result.toFixed(0);
+    document.querySelector('#windchill').innerHTML = result.toFixed(0) + '°F';
 }
 
 else {
