@@ -12,7 +12,9 @@ h4 {
 
 p,
 #motto,
-li {
+li,
+span,
+div {
   font-family: "DM Sans", Arial, sans-serif;
 }
 
@@ -352,4 +354,9 @@ footer a:hover {
 .card img {
   border-radius: 15px 15px 0px 0px;
   width: 100%;
+}
+
+#visit {
+  margin-top: 1rem;
+
 }
