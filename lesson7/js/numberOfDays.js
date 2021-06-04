@@ -1,16 +1,19 @@
-window.localStorage.setItem('storedDate', d.getTime());
-
-
-let storedDate = window.localStorage.getItem('storedDate');
-
-let newDate = new Date();
+let storedDate = new Date(localStorage.getItem('storedDate'));
 
 const oneDay = 1000 * 60 * 60 * 24;
 
-const diffInTime = newDate.getTime() - storedDate;
+let diffInTime = d.getTime() - storedDate.getTime();
 
-const diffInDays = Math.round(diffInTime / oneDay);
+let diffInDays = Math.round(diffInTime / oneDay);
 
-console.log(storedDate);
-console.log(newDate.getTime());
-console.log(diffInTime);
+if ('storedDate' in localStorage) {
+    document.querySelector('.lastvisit').innerHTML = diffInDays;
+} else {
+    document.querySelector('.lastvisit').innerHTML = 'This is your first visit!'
+}
+
+storeDate()
+
+function storeDate() {
+    localStorage.setItem('storedDate', d);
+}
