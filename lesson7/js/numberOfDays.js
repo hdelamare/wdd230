@@ -6,13 +6,10 @@ let diffInTime = d.getTime() - storedDate.getTime();
 
 let diffInDays = Math.round(diffInTime / oneDay);
 
-localStorage.clear();
 if ('storedDate' in localStorage) {
     document.querySelector('.lastvisit').innerHTML = diffInDays + ' days ago.';
-    alert('yes');
 } else {
     document.querySelector('.lastvisit').innerHTML = 'This is your first visit!'
-    alert('no');
 }
 
 storeDate()
