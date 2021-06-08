@@ -1,0 +1,111 @@
+@media only screen and (min-width: 45em){
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    header img {
+        width: 256px;
+    }
+
+    header h1 {
+        margin-top: -3rem;
+        font-size: 2rem;
+    }
+
+    header #motto {
+        font-size: 1.5rem;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+
+    .section-box {
+        max-width: 40rem;
+    }
+
+    footer {
+        max-width: 55rem;
+    }
+
+    .hero-div {
+        max-width: 50rem;
+        max-height: 300px;
+        margin-bottom: 7rem;
+    }
+
+    .hero-img {
+        max-width: 50rem;
+        max-height: 300px;
+    }
+
+    .weather-summary {
+        top: 40px;
+        left: 40px;
+    }
+
+    .forecast-title {
+        display: block;
+    }
+
+    .forecast-div {
+        display: flex;
+    }
+
+    .article {
+        max-width: 48rem;
+    }
+
+    .article h3 {
+        margin-top: 0;
+    }
+
+    .article img {
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .contact-img {
+        display: block;
+        width: 200px;
+        border: 1px solid #333;
+        margin-top: 0.8rem;
+        margin-left: -4.5rem;
+
+    }
+
+    .social {
+        margin-top: -0.5rem;
+        margin-left: 2rem;
+    }
+
+    .contact-info {
+        padding: 1rem 0 0 1rem;
+        margin-right: -3rem;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+        max-width: 35rem;
+    }
+
+    #gallery-main {
+        max-width: 60rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
