@@ -473,11 +473,26 @@ form .top input:required:valid {
   cursor: pointer;
 }
 
-
 #ratingvalue {
   display: inline;
   margin-left: 1rem;
 	color: #533a71;
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+.stormThanks {
+  margin: 0 auto;
+  max-width: 60rem;
+  width: 100%;
+  max-height: 30rem;
+  margin-bottom: 1.5rem;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px #333;
+}
+
+#staySafe {
+  text-align: center;
+  font-size: large;
+  margin-top: -0.5rem;
 }
