@@ -1,0 +1,53 @@
+body {
+    color: midnightblue;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+section {
+    margin: 10px auto;
+    color: white;
+    max-width: 300px;
+    width: 100%;
+    background-color: rgb(154, 154, 207);
+    padding: 0.5rem;
+    border: solid 2px midnightblue;
+    border-radius: 10px;
+}
+
+h2 {
+    color: midnightblue;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    margin-bottom: -0.3rem;
+}
+
+img {
+    max-width: 200px;
+    box-shadow: 0 5px 20px #333;
+}
+
+p:nth-child(3) {
+    margin-top: -0.75rem;
+}
+
+@media only screen and (min-width: 45em){
+    .cards {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        max-width: 50rem;
+        margin: 0 auto;
+    }
+
+    section {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 80em){
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 85rem;
+    }
+}
