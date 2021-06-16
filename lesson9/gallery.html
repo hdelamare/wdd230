@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Completed Preston page for weather site project for Hunter DeLaMare | WDD230" />
+  <link rel="shortcut icon" href="../lesson9/images/icon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="../lesson9/css/small.css" />
+  <link rel="stylesheet" href="../lesson9/css/medium.css" />
+  <link rel="stylesheet" href="../lesson9/css/large.css" />
+  <script src="../lesson9/js/currentDate.js" defer></script>
+  <script src="../lesson9/js/toggleMenu.js" defer></script>
+  <script src="../lesson9/js/currentYear.js" defer></script>
+  <script src="../lesson9/js/showBanner.js" defer></script>
+  <script src="../lesson9/js/windChill.js" defer></script>
+  <script src="../lesson9/js/lazyload.js" defer></script>
+  <script src="../lesson9/js/numberOfDays.js" defer></script>
+  <title>Weather Gallery | Sunny Day News</title>
+</head>
+
+<body>
+  <div class="banner">
+    <h3>Saturday = Preston Pancakes in the Park!</h3>
+    <div>9:00 a.m. Saturday at the city park pavillion.</div>
+  </div>
+  <header>
+    <div>
+      <img src="../lesson9/images/iconfinder-icon.svg" alt="Site Logo" />
+    </div>
+    <div>
+      <h1>Sunny Day News - Idaho</h1>
+      <div id="motto">Covering our community.</div>
+    </div>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="../lesson9/index.html">Home</a></li>
+      <li><a href="../lesson9/preston.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="../lesson9/stormcenter.html">Storm Center</a></li>
+      <li><a href="../lesson9/gallery.html" class="active">Gallery</a></li>
+    </ul>
+  </nav>
+  <main id="gallery-main">
+    <h2>Weather Gallery</h2>
+    <div class="gallery-grid">
+      <div class="card">
+        <img src="../lesson9/galleryImages/placeholder.jpg" data-src="../lesson9/galleryImages/Clouds.jpg"
+          alt="Clouds in the sky" />
+        <div class="container">
+          <p>Clouds</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../lesson9/galleryImages/placeholder.jpg" data-src="../lesson9/galleryImages/Forest.jpg"
+          alt="Fog covered forest" />
+        <div class="container">
+          <p>Forest</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../lesson9/galleryImages/placeholder.jpg" data-src="../lesson9/galleryImages/Lightning.jpg"
+          alt="Lightning strike" />
+        <div class="container">
+          <p>Lighnting</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../lesson9/galleryImages/placeholder.jpg" data-src="../lesson9/galleryImages/Rain.jpg"
+          alt="Muddy road after rain" />
+        <div class="container">
+          <p>Rain</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../lesson9/galleryImages/placeholder.jpg" data-src="../lesson9/galleryImages/Rainbow.jpg"
+          alt="Rainbow after storm" />
+        <div class="container">
+          <p>Rainbow</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../lesson9/galleryImages/placeholder.jpg" data-src="../lesson9/galleryImages/Sky.jpg"
+          alt="Blue sky and green grass" />
+        <div class="container">
+          <p>Sky</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../lesson9/galleryImages/placeholder.jpg" data-src="../lesson9/galleryImages/Snow.jpg"
+          alt="Trees along snow covered path" />
+        <div class="container">
+          <p>Snow</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../lesson9/galleryImages/placeholder.jpg" data-src="../lesson9/galleryImages/Sunset.jpg"
+          alt="Sunset over snow covered field" />
+        <div class="container">
+          <p>Sunset</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../lesson9/galleryImages/placeholder.jpg" data-src="../lesson9/galleryImages/Wind.jpg"
+          alt="Wind blown long grass" />
+        <div class="container">
+          <p>Wind</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div id="visit">Last visit: <span class="lastvisit"></span></div>
+    <p>&copy; <span id="currYear"></span> Sunny Day News | Hunter DeLaMare</p>
+    <p>
+      <span id="currDate"></span> |
+      <a href="../index.html">Assignment Portal</a>
+    </p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({ google: { families: ["DM Sans", "Mandali"] } });
+  </script>
+</body>
+
+</html>
