@@ -17,6 +17,7 @@
     <script src="../lesson9/js/currentYear.js" defer></script>
     <script src="../lesson9/js/showBanner.js" defer></script>
     <script src="../lesson9/js/windChill.js" defer></script>
+    <script src="../lesson9/js/fetch.js" defer></script>
     <title>Home | Sunny Day News</title>
 </head>
 
@@ -46,63 +47,17 @@
         </ul>
     </nav>
     <main>
-        <h2>Preston Idaho</h2>
+        <h2>Welcome to Sunny Day News!</h2>
         <div class="hero-div">
             <picture>
-                <source media="(max-width: 200px)" srcset="images/imageSmall200.jpg">
-                <source media="(max-width: 500px)" srcset="images/imageMedium500.jpg">
-                <source media="(max-width: 800px)" srcset="images/imageLarge800.jpg">
-                <img src="../lesson9/images/imageOriginal1100.jpg" alt="sunny skies" class="hero-img">
+                <source media="(max-width: 500px)" srcset="images/home500.jpg">
+                <source media="(max-width: 800px)" srcset="images/home800.jpg">
+                <img src="../lesson9/images/home1100.jpg" alt="sunny skies" class="hero-img">
             </picture>
-            <section class="weather-summary">
-                <h3>Weather Summary</h3>
-                <ul class="summary-labels">
-                    <li>Currently:</li>
-                    <li>High:</li>
-                    <li>Wind Chill:</li>
-                    <li>Humidity:</li>
-                    <li>Wind Speed:</li>
-                </ul>
-                <ul class="summary-values">
-                    <li>Rainy</li>
-                    <li><span id="temp">49</span> °F</li>
-                    <li><span id="windchill"></span></li>
-                    <li>95%</li>
-                    <li><span id="speed">12</span> mph</li>
-                </ul>
-            </section>
-        </div>
-        <h3 class="forecast-title">5 Day Forecast</h3>
-        <div class="forecast-div">
-            <section class="forecast-box">
-                <h4>Wed</h4>
-                <img src="../lesson9/images/1530392-128.png" alt="Sun Icon" />
-                <p>89°F</p>
-            </section>
-            <section class="forecast-box">
-                <h4>Thu</h4>
-                <img src="../lesson9/images/1530392-128.png" alt="Sun Icon" />
-                <p>81°F</p>
-            </section>
-            <section class="forecast-box">
-                <h4>Fri</h4>
-                <img src="../lesson9/images/1530392-128.png" alt="Sun Icon" />
-                <p>78°F</p>
-            </section>
-            <section class="forecast-box">
-                <h4>Sat</h4>
-                <img src="../lesson9/images/1530392-128.png" alt="Sun Icon" />
-                <p>76°F</p>
-            </section>
-            <section class="forecast-box">
-                <h4>Sun</h4>
-                <img src="../lesson9/images/1530392-128.png" alt="Sun Icon" />
-                <p>72°F</p>
-            </section>
         </div>
         <article class="article">
-            <img src="../lesson9/images/rsz_pexels-kaboompics-com-6050.jpg" alt="People at a park feeding birds" />
-            <h3>Party at the Park</h3>
+            <img src="../lesson9/images/lightning800.jpg" alt="People at a park feeding birds" />
+            <h3>Lightning over the Lake</h3>
             <div class="author">by Wiliam Writer</div>
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga totam
@@ -119,6 +74,7 @@
                 reprehenderit voluptatibus nobis doloribus ipsam.
             </p>
         </article>
+        <div class="home-cards"></div>
         <div class="contact">
             <div>
                 <img class="contact-img" src="../lesson9/images/preston-map.jpg" alt="Map of Preston, Idaho" />

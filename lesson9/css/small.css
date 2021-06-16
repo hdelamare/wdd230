@@ -496,3 +496,44 @@ form .top input:required:valid {
   font-size: large;
   margin-top: -0.5rem;
 }
+
+.home-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.3rem;
+  padding: 1rem 1rem  1rem;
+  text-align: center;
+}
+
+.home-cards section {
+  color: black;
+  background-color: rgb(154, 154, 207);
+  border: solid 2px midnightblue;
+  border-radius: 10px;
+}
+
+.home-cards h2 {
+  color: midnightblue;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 28px;
+}
+
+.home-cards img {
+  width: 100%;
+  margin-bottom: -0.4rem;
+  border-radius: 0 0 10px 10px;
+}
+
+.home-cards div {
+  margin-top: 0.5rem;
+}
+
+.home-cards p {
+  line-height: .75rem;
+  
+}
+
+.town-info div {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}

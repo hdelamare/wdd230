@@ -115,5 +115,33 @@
 
     .buttonHolder {
         text-align: left;
-      }
+    }
+
+    .home-cards section {
+        display: flex;
+        flex-direction: row;
+        border-radius: 0;
+    }
+
+    .home-cards section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .town-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-cards img {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .home-cards div {
+        margin-bottom: 3rem;
+    }
+
+    
+
+    
 }
