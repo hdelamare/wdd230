@@ -40,6 +40,14 @@ p:nth-child(3) {
     margin-top: -0.75rem;
 }
 
+footer {
+    margin: 20px auto 0 auto;
+    max-width: 40rem;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
 @media only screen and (min-width: 30em){
     .cards {
         grid-template-columns: 1fr 1fr;
