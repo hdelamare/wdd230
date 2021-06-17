@@ -491,6 +491,10 @@ form .top input:required:valid {
   border-radius: 10px;
 }
 
+.home-cards section:nth-child(3) {
+  order: 1;
+}
+
 .home-cards h2 {
   color: midnightblue;
   font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
@@ -515,4 +519,16 @@ form .top input:required:valid {
 .town-info div {
   margin-top: -1rem;
   margin-bottom: 2rem;
+}
+
+#preston-card {
+  order: 1;
+}
+
+#soda-card {
+  order: 2;
+}
+
+#fish-card {
+  order: 3;
 }
