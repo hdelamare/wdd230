@@ -482,12 +482,13 @@ form .top input:required:valid {
   grid-gap: 0.3rem;
   padding: 1rem 1rem  1rem;
   text-align: center;
+  margin-top: -2.5rem;
 }
 
 .home-cards section {
   color: black;
-  background-color: rgb(154, 154, 207);
-  border: solid 2px midnightblue;
+  background-color: #F9F3B4;
+  border: solid 2px #626c66;
   border-radius: 10px;
 }
 
@@ -496,15 +497,15 @@ form .top input:required:valid {
 }
 
 .home-cards h2 {
-  color: midnightblue;
+  color: #533a71;
   font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 28px;
 }
 
 .home-cards img {
   width: 100%;
-  margin-bottom: -0.4rem;
-  border-radius: 0 0 10px 10px;
+  margin-bottom: -0.43rem;
+  border-radius: 0 0 8px 8px;
 }
 
 .home-cards div {
@@ -513,10 +514,15 @@ form .top input:required:valid {
 
 .home-cards p {
   line-height: .75rem;
-  
+}
+
+.town-info p:nth-child(5) {
+   margin-bottom: 2rem;
 }
 
 .town-info div {
+  color: #ad343e;
+  font-size: 14px;
   margin-top: -1rem;
   margin-bottom: 2rem;
 }

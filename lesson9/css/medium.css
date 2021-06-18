@@ -117,6 +117,12 @@
         text-align: left;
     }
 
+    .home-cards {
+        max-width: 50rem;
+        margin: 0 auto;
+        margin-top: -1.5rem;
+    }
+
     .home-cards section {
         display: flex;
         flex-direction: row;
@@ -132,11 +138,16 @@
         text-align: center;
     }
 
+    .town-info div {
+        font-size: 14px;
+        margin-top: -1.3rem;
+    }
+
     .home-cards img {
         margin-bottom: 0;
         border-radius: 0;
         max-height: 300px;
-        max-width: 450px;
+        max-width: 400px;
         width: 100%;
     }
 

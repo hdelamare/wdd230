@@ -55,6 +55,17 @@
         display: block;
         border-radius: 10px;
       }
+
+      .home-cards {
+        margin-top: -1.5rem;
+        max-width: 90rem;
+        width: 100%;
+      }
+
+      .home-cards section {
+        max-width: 400px;
+        width: 100%;
+      }
       
       .home-cards h2 {
         margin-bottom: -0.3rem;
@@ -65,7 +76,7 @@
         height: 13rem;
         margin-top: -1rem;
         margin-bottom: -0.4rem;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 8px 8px;
       }
       
       .town-info div {
