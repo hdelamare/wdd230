@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Completed Preston page for weather site project for Hunter DeLaMare | WDD230" />
+  <link rel="shortcut icon" href="../lesson10/images/icon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="../lesson10/css/small.css" />
+  <link rel="stylesheet" href="../lesson10/css/medium.css" />
+  <link rel="stylesheet" href="../lesson10/css/large.css" />
+  <script src="../lesson10/js/currentDate.js" defer></script>
+  <script src="../lesson10/js/toggleMenu.js" defer></script>
+  <script src="../lesson10/js/currentYear.js" defer></script>
+  <script src="../lesson10/js/showBanner.js" defer></script>
+  <script src="../lesson10/js/windChill.js" defer></script>
+  <script src="../lesson10/lazyload/js/lazyload.js" defer></script>
+  <script src="../lesson10/js/numberOfDays.js" defer></script>
+  <script src="../lesson10/js/stormSeverity.js" defer></script>
+  <title>Weather Gallery | Sunny Day News</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="../lesson10/images/iconfinder-icon.svg" alt="Site Logo" />
+    </div>
+    <div>
+      <h1>Sunny Day News - Idaho</h1>
+      <div id="motto">Covering our community.</div>
+    </div>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="../lesson10/index.html">Home</a></li>
+      <li><a href="../lesson10/preston.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="../lesson10/stormcenter.html" class="active">Storm Center</a></li>
+      <li><a href="../lesson10/gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main id="stormcenter-main">
+    <h2>Thanks for reporting your storm and helping cover your community!</h2>
+    <p id="staySafe">We'll be sure to get the word out so everybody knows to stay safe!</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="images/StormThanks500.jpg">
+        <source media="(max-width: 800px)" srcset="images/StormThanks800.jpg">
+        <img src="../lesson10/images/StormThanks1100.jpg" alt="Storm in the country" class="stormThanks">
+      </picture>
+  <footer>
+    <div id="visit">Last visit: <span class="lastvisit"></span></div>
+    <p>&copy; <span id="currYear"></span> Sunny Day News | Hunter DeLaMare</p>
+    <p>
+      <span id="currDate"></span> |
+      <a href="../index.html">Assignment Portal</a>
+    </p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({ google: { families: ["DM Sans", "Mandali"] } });
+  </script>
+</body>
+
+</html>
