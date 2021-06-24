@@ -193,42 +193,6 @@ footer a:hover {
   display: none;
 }
 
-.forecast-div {
-  margin: 10px auto;
-  display: none;
-  width: 460px;
-  height: 160px;
-  background-color: white;
-  color: black;
-  margin-bottom: 1rem;
-}
-
-.forecast-box {
-  flex: 1 1 100%;
-  text-align: center;
-  border: 1px solid #333;
-  margin-left: -1px;
-}
-
-.forecast-box h4 {
-  background-color: #ad343e;
-  color: white;
-  margin-top: 0;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #333;
-}
-
-.forecast-box img {
-  margin: -1.2rem auto 0 auto;
-  width: 80px;
-}
-
-.forecast-box p {
-  margin-top: -0.8rem;
-  font-weight: bold;
-}
-
 .article {
   margin: 0 auto 10px auto;
   background-color: #dfd7ea;
@@ -539,4 +503,45 @@ form .top input:required:valid {
 
 #fish-card {
   order: 3;
+}
+
+.forecast-div {
+  max-width: 48rem;
+  background-color: #d3d3d3;
+  width: 100%;
+  text-align: center;
+  margin: 1rem auto 2rem auto;
+  display: none;
+  border-radius: 0 0 20px 20px;
+}
+
+.forecast {
+  flex: 1 1 100%;
+  border: 2px solid #333;
+  margin-left: -2px;
+}
+
+.forecast:first-child {
+  border-radius: 0 0 0 20px;
+}
+
+.forecast:nth-child(5) {
+  border-radius: 0 0 20px 0;
+}
+
+.forecast-day {
+  color: white;
+  margin-bottom: -1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid #333;
+  background-color: #ad343e;
+}
+
+.forecast-temp {
+  margin-top: -1rem;
+}
+
+.forecast-img {
+  padding-top: 0.5rem;
 }
