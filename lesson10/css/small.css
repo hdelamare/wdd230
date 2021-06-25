@@ -18,7 +18,8 @@ div {
   font-family: "DM Sans", Arial, sans-serif;
 }
 
-header, nav {
+header,
+nav {
   margin: 0 auto;
 }
 
@@ -106,6 +107,7 @@ footer {
   color: white;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  width: 100%;
 }
 
 footer a {
@@ -228,7 +230,7 @@ footer a:hover {
 
 .contact {
   margin-top: 2rem;
-  max-width: 100%;
+  width: 100%;
   background-color: #cabbdd;
   padding-bottom: 0.8rem;
 }
@@ -254,12 +256,12 @@ footer a:hover {
   opacity: 0.7;
 }
 
-.contact-img {
-    display: none;
+.contact iframe {
+  display: none;
 }
 
 .banner {
-  background: radial-gradient(#F9E8B4, #F1CA55, #E5B012);
+  background: radial-gradient(#f9e8b4, #f1ca55, #e5b012);
   margin: 0 auto 2rem auto;
   padding-top: 0.5rem;
   text-align: center;
@@ -299,7 +301,6 @@ footer a:hover {
 
 #visit {
   margin-top: 1rem;
-
 }
 
 form {
@@ -308,10 +309,10 @@ form {
 }
 
 form fieldset {
-  margin: 2rem 0 .5rem 0;
+  margin: 2rem 0 0.5rem 0;
   border: 1px solid #533a71;
   border-radius: 10px;
-  padding: .5rem 2%;
+  padding: 0.5rem 2%;
   font-family: "DM Sans", Arial, sans-serif;
 }
 
@@ -320,11 +321,12 @@ form legend {
   font-family: "Mandali", Helvetica, sans-serif;
   color: #533a71;
   margin: 0 1rem;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   font-weight: 700;
 }
 
-form .top, form div {
+form .top,
+form div {
   display: block;
   padding-top: 1rem;
   color: #ad343e;
@@ -337,22 +339,23 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-form .top input, form .top select {
+form .top input,
+form .top select {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
   border-radius: 4px;
-  padding: .75rem;
+  padding: 0.75rem;
   color: #555;
   width: 100%;
   max-width: 15rem;
-  background-color: rgba(0, 0, 0, 0.1)
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .sbs {
   display: block;
-  padding: .75rem 0;
+  padding: 0.75rem 0;
   color: #555;
 }
 
@@ -361,7 +364,7 @@ form .top input, form .top select {
   background-color: #ad343e;
   color: white;
   border-radius: 1rem;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   margin: 0 0 2rem 0;
   width: 96%;
   max-width: 15rem;
@@ -386,12 +389,12 @@ form .top input:required:valid {
   width: 100%;
   max-width: 12rem;
   height: 15px;
-  border-radius: 5px;  
+  border-radius: 5px;
   background: #d3d3d3;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
 }
 
 #rating:hover {
@@ -403,10 +406,10 @@ form .top input:required:valid {
   appearance: none;
   width: 25px;
   height: 25px;
-  border-radius: 50%; 
+  border-radius: 50%;
   background: #533a71;
   cursor: pointer;
-  margin-top: -.3rem;
+  margin-top: -0.3rem;
   opacity: 1;
 }
 
@@ -421,7 +424,7 @@ form .top input:required:valid {
 #ratingvalue {
   display: inline;
   margin-left: 1rem;
-	color: #533a71;
+  color: #533a71;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -446,14 +449,14 @@ form .top input:required:valid {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 0.3rem;
-  padding: 1rem 1rem  1rem;
+  padding: 1rem 1rem 1rem;
   text-align: center;
   margin-top: -2.5rem;
 }
 
 .home-cards section {
   color: black;
-  background-color: #F9F3B4;
+  background-color: #f9f3b4;
   border: solid 2px #626c66;
   border-radius: 10px;
 }
@@ -464,7 +467,7 @@ form .top input:required:valid {
 
 .home-cards h2 {
   color: #533a71;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 28px;
 }
 
@@ -479,11 +482,11 @@ form .top input:required:valid {
 }
 
 .home-cards p {
-  line-height: .75rem;
+  line-height: 0.75rem;
 }
 
 .town-info p:nth-child(5) {
-   margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .town-info div {
