@@ -25,6 +25,11 @@
         font-size: 30px;
     }
 
+    .navigation {
+      max-width: 75rem;
+      margin: 0 auto;
+    }
+
     .section-box {
         max-width: 50rem;
     }
