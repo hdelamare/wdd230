@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Completed Preston page for weather site project for Hunter DeLaMare | WDD230"
+    />
+    <link rel="shortcut icon" href="../lesson11/images/icon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="../lesson11/css/small.css" />
+    <link rel="stylesheet" href="../lesson11/css/medium.css" />
+    <link rel="stylesheet" href="../lesson11/css/large.css" />
+    <script src="../lesson11/js/currentDate.js" defer></script>
+    <script src="../lesson11/js/toggleMenu.js" defer></script>
+    <script src="../lesson11/js/currentYear.js" defer></script>
+    <script src="../lesson11/js/windChill.js" defer></script>
+    <script src="../lesson11/js/sodaWeatherAPI.js" defer></script>
+    <script src="../lesson11/js/sodaSpringsEvents.js" defer></script>
+    <title>Preston | Sunny Day News</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="../lesson11/images/iconfinder-icon.svg" alt="Site Logo" />
+      </div>
+      <div>
+        <h1>Sunny Day News - Idaho</h1>
+        <div id="motto">Covering our community.</div>
+      </div>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="../lesson11/index.html">Home</a></li>
+        <li><a href="../lesson11/preston.html">Preston</a></li>
+        <li>
+          <a href="../lesson11/sodasprings.html" class="active">Soda Springs</a>
+        </li>
+        <li><a href="../lesson11/fishhaven.html">Fish Haven</a></li>
+        <li><a href="../lesson11/stormcenter.html">Storm Center</a></li>
+        <li><a href="../lesson11/gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Soda Springs, Idaho</h2>
+      <div class="hero-div">
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/sodasprings500.jpg"
+          />
+          <source
+            media="(max-width: 800px)"
+            srcset="images/sodasprings800.jpg"
+          />
+          <img
+            src="../lesson11/images/sodasprings1100.jpg"
+            alt="mountains with low clouds"
+            class="hero-img"
+          />
+        </picture>
+        <section class="weather-summary">
+          <h3>Weather Summary</h3>
+          <ul class="summary-labels">
+            <li>Currently:</li>
+            <li>High:</li>
+            <li>Wind Chill:</li>
+            <li>Humidity:</li>
+            <li>Wind Speed:</li>
+          </ul>
+          <ul class="summary-values">
+            <li><span id="weather-description"></span></li>
+            <li><span id="temp"></span> °F</li>
+            <li><span id="windchill"></span></li>
+            <li><span id="humidity"></span>%</li>
+            <li><span id="speed"></span> mph</li>
+          </ul>
+        </section>
+      </div>
+      <h3 class="forecast-title">5 Day Forecast</h3>
+      <div class="forecast-div"></div>
+      <article class="article">
+        <img
+          src="../lesson11/images/rsz_pexels-kaboompics-com-6050.jpg"
+          alt="People at a park feeding birds"
+        />
+        <h3>Party at the Park</h3>
+        <div class="author">by Wiliam Writer</div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga totam
+          recusandae, pariatur animi, maxime ab libero at aliquid fugit
+          distinctio corporis voluptatibus eos autem debitis cumque tempora
+          tenetur vero facere harum provident. Architecto, corrupti iure.
+          Aperiam, blanditiis. Sapiente, facilis omnis fugiat libero quisquam
+          recusandae repudiandae nihil error magni id veritatis accusamus quia?
+          Iusto consequuntur dicta quas est officiis quaerat, at beatae
+          repellendus id odio labore accusantium architecto itaque et obcaecati
+          doloremque nulla exercitationem vel aperiam quam dolores deleniti.
+          Excepturi repudiandae dolore, ipsa libero animi numquam incidunt dicta
+          asperiores facere modi ducimus minima porro. Eligendi odio
+          reprehenderit voluptatibus nobis doloribus ipsam.
+        </p>
+      </article>
+      <div id="soda-springs-events">
+
+      </div>
+      <div class="contact">
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.96064633286!2d-111.62379147650239!3d42.661407516812865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1624642358544!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div>
+          <div class="contact-info">
+            <ul>
+              <li><strong>Sunny Day News</strong></li>
+              <li>
+                <img
+                  src="../lesson11/images/3669413-16.png"
+                  alt="Location Icon"
+                />
+                30 N 1st E
+              </li>
+              <li>Preston, ID 82363</li>
+              <li></li>
+              <li>&phone; (800) 123-4567</li>
+              <li>&#9993; sunnydaynews@sdn.com</li>
+            </ul>
+          </div>
+          <div class="social">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"
+              ><img src="../lesson11/images/facebook.png" alt="facebook logo"
+            /></a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener"
+              ><img src="../lesson11/images/twitter.png" alt="twitter logo"
+            /></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener"
+              ><img src="../lesson11/images/youtube.png" alt="youtube logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; <span id="currYear"></span> Sunny Day News | Hunter DeLaMare</p>
+      <p>
+        Attributions |
+        <a href="https://openweathermap.org" target="_blank" rel="noopener"
+          >OpenWeather</a
+        >
+      </p>
+      <p>
+        <span id="currDate"></span> |
+        <a href="../index.html">Assignment Portal</a>
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["DM Sans", "Mandali"] } });
+    </script>
+  </body>
+</html>

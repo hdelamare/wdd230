@@ -26,19 +26,19 @@ fetch(requestURL)
             rainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
 
             if (i == 0) {
-              townImage.setAttribute('src', '../lesson9/images/soda-springs-home.jpg')
-              townImage.setAttribute('alt', 'Image of ' + towns[i].name)
-              card.setAttribute('id', 'soda-card')
+              townImage.setAttribute('src', '../lesson9/images/soda-springs-home.jpg');
+              townImage.setAttribute('alt', 'Image of ' + towns[i].name);
+              card.setAttribute('id', 'soda-card');
             } 
             if (i == 2) {
-              townImage.setAttribute('src', '../lesson9/images/fish-haven-home.jpg')
-              townImage.setAttribute('alt', 'Image of ' + towns[i].name)
-              card.setAttribute('id', 'fish-card')
+              townImage.setAttribute('src', '../lesson9/images/fish-haven-home.jpg');
+              townImage.setAttribute('alt', 'Image of ' + towns[i].name);
+              card.setAttribute('id', 'fish-card');
             }
             if (i == 6) {
-              townImage.setAttribute('src', '../lesson9/images/preston-home.jpg')
-              townImage.setAttribute('alt', 'Image of ' + towns[i].name)
-              card.setAttribute('id', 'preston-card')
+              townImage.setAttribute('src', '../lesson9/images/preston-home.jpg');
+              townImage.setAttribute('alt', 'Image of ' + towns[i].name);
+              card.setAttribute('id', 'preston-card');
             }
             cardDiv.appendChild(h2);
             cardDiv.appendChild(motto);
@@ -49,5 +49,4 @@ fetch(requestURL)
             card.appendChild(townImage);        
         
         document.querySelector('div.home-cards').appendChild(card);
-  }}});
-
+}}});

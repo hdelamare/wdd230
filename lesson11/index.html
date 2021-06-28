@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Completed Preston page for weather site project for Hunter DeLaMare | WDD230"
+    />
+    <link rel="shortcut icon" href="../lesson11/images/icon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="../lesson11/css/small.css" />
+    <link rel="stylesheet" href="../lesson11/css/medium.css" />
+    <link rel="stylesheet" href="../lesson11/css/large.css" />
+    <script src="../lesson11/js/currentDate.js" defer></script>
+    <script src="../lesson11/js/toggleMenu.js" defer></script>
+    <script src="../lesson11/js/currentYear.js" defer></script>
+    <script src="../lesson11/js/showBanner.js" defer></script>
+    <script src="../lesson11/js/windChill.js" defer></script>
+    <script src="../lesson11/js/fetch.js" defer></script>
+    <title>Home | Sunny Day News</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="../lesson11/images/iconfinder-icon.svg" alt="Site Logo" />
+      </div>
+      <div>
+        <h1>Sunny Day News - Idaho</h1>
+        <div id="motto">Covering our community.</div>
+      </div>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="../lesson11/index.html" class="active">Home</a></li>
+        <li><a href="../lesson11/preston.html">Preston</a></li>
+        <li><a href="../lesson11/sodasprings.html">Soda Springs</a></li>
+        <li><a href="../lesson11/fishhaven.html">Fish Haven</a></li>
+        <li><a href="../lesson11/stormcenter.html">Storm Center</a></li>
+        <li><a href="../lesson11/gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Welcome to Sunny Day News!</h2>
+      <div class="hero-div" id="home-hero-div">
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/home500.jpg" />
+          <source media="(max-width: 800px)" srcset="images/home800.jpg" />
+          <img
+            src="../lesson11/images/home1100.jpg"
+            alt="sunny skies"
+            class="hero-img"
+            id="home-img"
+          />
+        </picture>
+      </div>
+      <div class="home-cards"></div>
+      <article class="article">
+        <img
+          src="../lesson11/images/lightning800.jpg"
+          alt="Lightning over lake"
+        />
+        <h3>Lightning Over the Lake</h3>
+        <div class="author">by Wiliam Writer</div>
+        <p>
+          As storms rolled in over South Eastern Idaho this past week, a local
+          photographer from Fish Haven was able to snag this beautiful shot of
+          lightning striking over Bear Lake. We here at Sunny Day News thought
+          that this would be a great example to remind the residents of Idaho on
+          the dangers that thunderstorms can present. Remember the 30-30 rule!
+          That if 30 seconds or less have passed from the time of seeing
+          lighting and hearing the thunder, that the storm is close enough to
+          you to be dangerous. Also, remember to wait at least 30 minutes from
+          the last lightning flash to leave shelter. If you're caught in a
+          thunderstorm, a building or car are the safest places to be. Stay away
+          from concrete surfaces and avoid taking showers or baths as lightning
+          can travel pipes and wires in your home. If you find yourself in a
+          situation where you can't seek shelter or are in an open area,
+          immediately get off elevated ground and seek low ground. Avoid large
+          bodies of water and isolated trees. If all else fails, crouch down
+          into a ball with your head between your knees and cover your ears with
+          your hands. DO NOT lie flat on the ground! Try to limit your contact
+          with the ground as much as possible. If you're out on open water,
+          retreat inside your cabin and wait the storm out. If your boat doesn't
+          have a cabin, either try to get ashore and find shelter or stay as low
+          as you can in the boat. That's going to do it for this week's weather
+          tip. For more weather news/tips and information happening in your
+          area, be sure to follow us on social media or check back here at
+          SunnyDayNews.com.
+        </p>
+      </article>
+      <div class="contact-home">
+        <div>
+          <div class="contact-info-home">
+            <ul>
+              <li><strong>Sunny Day News</strong></li>
+              <li>
+                <img
+                  src="../lesson11/images/3669413-16.png"
+                  alt="Location Icon"
+                />
+                30 N 1st E
+              </li>
+              <li>Preston, ID 82363</li>
+              <li></li>
+              <li>&phone; (800) 123-4567</li>
+              <li>&#9993; sunnydaynews@sdn.com</li>
+            </ul>
+          </div>
+          <div class="social-home">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"
+              ><img src="../lesson11/images/facebook.png" alt="facebook logo"
+            /></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener"
+              ><img src="../lesson11/images/youtube.png" alt="youtube logo"
+            /></a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener"
+              ><img src="../lesson11/images/twitter.png" alt="twitter logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; <span id="currYear"></span> Sunny Day News | Hunter DeLaMare</p>
+      <p>
+        Attributions |
+        <a href="https://openweathermap.org" target="_blank" rel="noopener"
+          >OpenWeather</a
+        >
+      </p>
+      <p>
+        <span id="currDate"></span> |
+        <a href="../index.html">Assignment Portal</a>
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["DM Sans", "Mandali"] } });
+    </script>
+  </body>
+</html>
