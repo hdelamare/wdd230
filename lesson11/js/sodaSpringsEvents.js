@@ -1,11 +1,11 @@
-const sodaSprings = 'https://byui-cit230.github.io/weather/data/towndata.json';
+let sodaSprings = 'https://byui-cit230.github.io/weather/data/towndata.json';
 fetch(sodaSprings)
   .then(function (response) {
     return response.json();
   })
   .then(function (soda) {
     console.table(soda);
-    const towns = soda["towns"];
+    let towns = soda["towns"];
     for (let i = 0; i < towns.length; i++ ) {
         if (i = 0) {
             let sodaEvents = document.createElement('div');
