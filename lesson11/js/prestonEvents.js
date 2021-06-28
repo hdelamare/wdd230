@@ -5,7 +5,7 @@ fetch(preston)
     console.table(preston);
     let towns = preston["towns"];
     for (let i = 0; i < towns.length; i++ ) {
-        if (i = 6) {
+        if (i == 6) {
             let prestonEvents = document.createElement('div');
             let prestonEvent1 = document.createElement('p');
             let prestonEvent2 = document.createElement('p');

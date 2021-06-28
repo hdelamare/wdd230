@@ -1,13 +1,11 @@
-let sodaSprings = 'https://byui-cit230.github.io/weather/data/towndata.json';
-fetch(sodaSprings)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (soda) {
+let soda = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(soda)
+  .then((response) => response.json())
+  .then((soda) => {
     console.table(soda);
     let towns = soda["towns"];
     for (let i = 0; i < towns.length; i++ ) {
-        if (i = 0) {
+        if (towns[i].name == "Soda Springs") {
             let sodaEvents = document.createElement('div');
             let sodaEvent1 = document.createElement('p');
             let sodaEvent2 = document.createElement('p');
