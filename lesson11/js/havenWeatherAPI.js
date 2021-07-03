@@ -12,7 +12,7 @@ fetch(apiWeatherURL)
     document.getElementById('speed').textContent = jsObject.wind.speed.toFixed(0);
   });
 
-const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=4525e1da6c6e94ce8e10f5f9d9d3db01"
+const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0372&lon=-111.3960&units=imperial&appid=4525e1da6c6e94ce8e10f5f9d9d3db01"
 fetch(apiForecastURL)
     .then((response) => response.json())
     .then((forecast) => {
