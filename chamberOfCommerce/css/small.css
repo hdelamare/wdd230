@@ -95,12 +95,13 @@ body {
   }
 
   footer {
+    font-family: "Crimson Text", Arial, sans-serif;
     text-align: center;
     background-color: #02183C;
     color: white;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
-    
+    line-height: 1rem;
   }
   
   footer a {
@@ -243,4 +244,56 @@ body {
     line-height: 1rem;
     text-align: center;
     padding: 0 0.5rem;
+  }
+
+  .demographics {
+    text-align: center;
+    padding: 0 0.5rem;
+  }
+
+  .population {
+    line-height: 1rem;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
+  }
+
+  .historical {
+    padding: 0 0.5rem;
+  }
+
+  .historical p {
+    margin-top: -1.2rem;
+  }
+
+  .city-events {
+    margin-top: 2rem;
+    padding: 0 0.5rem;
+  }
+
+  .city-events p {
+    margin-top: -1.2rem;
+  }
+
+  .city-events h4 {
+    margin-top: 0;
+  }
+
+  .city-events img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .kansas-city picture {
+    display: block;
+    text-align: center;
+  }
+
+  .kansas-city picture img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .kansas-city h2 {
+    text-align: center;
   }
