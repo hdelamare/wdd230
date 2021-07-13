@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Completed Directory page for Chamber of Commerce site project for Hunter DeLaMare | WDD230"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/Kansas City - Chamber of Commerce Icon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <title>Directory | KC Chamber</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          src="images/Kansas City - Chamber of Commerce Logo.png"
+          alt="Site Logo"
+        />
+      </div>
+      <div>
+        <h1>Kansas City - Chamber of Commerce</h1>
+        <div id="motto">Building Better Businesses</div>
+      </div>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="kansasCity.html">Kansas City</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main></main>
+    <footer>
+      <p>
+        &copy; <span id="currYear"></span> KC - Chamber of Commerce | Hunter
+        DeLaMare
+      </p>
+      <p>
+        <a href="attributions.html">Attributions</a>
+      </p>
+      <p>
+        <span id="currDate"></span>
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Didact Gothic", "Crimson Text"] } });
+    </script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/currentYear.js"></script>
+  </body>
+</html>
