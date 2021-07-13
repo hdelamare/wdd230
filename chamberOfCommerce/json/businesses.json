@@ -1,0 +1,60 @@
+{
+    "businesses": [
+        {
+            "name": "Big Boy Burgers",
+            "street_address": "12401 E US Hwy 40",
+            "city_address": "Independence, MO 64055",
+            "phone_number": "(816) 356-1221",
+            "logo": "big boy logo.png",
+            "website": "https://www.orderbigboyindependence.com/"
+        },
+        {
+            "name": "Hawaiian Bros",
+            "street_address": "4030 S Noland Rd",
+            "city_address": "Independence, MO 64055",
+            "phone_number": "(816) 521-6545",
+            "logo": "hawaiian bros logo.png",
+            "website": "https://hawaiianbros.com/"
+        },
+        {
+            "name": "Tay's Burger Shack",
+            "street_address": "1019 Armour Rd",
+            "city_address": "North Kansas City, MO 64116",
+            "phone_number": "(816) 541-8282",
+            "logo": "tays logo.png",
+            "website": "https://m.facebook.com/taysburgershack/"
+        },
+        {
+            "name": "Local Pig/Pigwich",
+            "street_address": "20 E 5th St",
+            "city_address": "Kansas City, MO 64106",
+            "phone_number": "(816) 200-1639",
+            "logo": "local pig logo.png",
+            "website": "https://www.localpig.com/"
+        },
+        {
+            "name": "Bunker",
+            "street_address": "4056 Broadway Blvd",
+            "city_address": "Kansas City, MO 64111",
+            "phone_number": "(816) 561-7407",
+            "logo": "bunker logo.png",
+            "website": "https://www.bunkeronline.com/"
+        },
+        {
+            "name": "Prospero's Bookstore",
+            "street_address": "1800 W 39th St",
+            "city_address": "Kansas City, MO 64111",
+            "phone_number": "(816) 531-9673",
+            "logo": "prosperos logo.png",
+            "website": "http://prosperosbookstore.com/"
+        },
+        {
+            "name": "Made in KC",
+            "street_address": "4155 N Mulberry Dr",
+            "city_address": "Kansas City, MO 64116",
+            "phone_number": "(816) 349-9646",
+            "logo": "made in kc logo.png",
+            "website": "https://madeinkc.co/"
+        }
+    ]
+}
