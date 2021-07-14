@@ -44,7 +44,137 @@
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
-    <main></main>
+    <main class="join">
+      <h2>Join the Chamber!</h2>
+      <p class="page-desc">
+        Wanting to start a business while hitting the ground running? Submit
+        your business and join the Kansas City - Chamber of Commerce to recieve
+        great benefits, and make your community and your business, better.
+      </p>
+      <form method="GET" action="thanks.html">
+        <fieldset>
+          <legend>Your Information</legend>
+          <label class="top"
+            >First Name*
+            <input
+              type="text"
+              name="fname"
+              pattern="[A-Za-z\s.'-]{1,}"
+              required
+          /></label>
+          <label class="top"
+            >Last Name*
+            <input
+              type="text"
+              name="lname"
+              pattern="[A-Za-z\s.'-]{1,}"
+              required
+          /></label>
+          <label class="top"
+            >Title
+            <input list="titles" name="title" placeholder="Select a title..." />
+            <datalist id="titles">
+              <option value="Mr."></option>
+              <option value="Mrs."></option>
+              <option value="Ms."></option>
+              <option value="Jr."></option>
+              <option value="Sr."></option>
+              <option value="Dr."></option>
+              <option value="N/A"></option>
+            </datalist>
+          </label>
+          <label class="top"
+            >Email*
+            <input
+              type="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required
+          /></label>
+          <label class="top"
+            >Phone <input type="tel" name="phone" placeholder="(816) 123-5555"
+          /></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Business Information</legend>
+          <label class="top"
+            >Business Name*
+            <input
+              type="text"
+              name="bname"
+              pattern="[a-zA-Z0-9-]+{1,}"
+              required
+          /></label>
+          <label class="top"
+            >Street Address <input type="text" name="street_add"
+          /></label>
+          <label class="top"
+            >City Address
+            <input type="text" name="street_add" placeholder="City, State ZIP"
+          /></label>
+          <label class="top"
+            >Business Website
+            <input type="url" name="website" placeholder="www.mybusiness.com" value="https://"
+          /></label>
+          <label class="top" for="description">Describe Your Business</label>
+          <textarea name="description" rows="6" cols="35"></textarea>
+          <label class="top"
+            >Membership Level
+            <select name="subject">
+              <option value="">Select Your Level... &#9662;</option>
+              <option value="non-profit">Non-profit ($100)</option>
+              <option value="bronze">Bronze ($200)</option>
+              <option value="silver">Silver ($400)</option>
+              <option value="gold">Gold ($1000)</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <div class="buttonHolder">
+          <input type="submit" value="Join the Chamber" class="submitBtn" />
+        </div>
+      </form>
+
+      <section class="key">
+        <h3>Membership Level Benefits</h3>
+        <h4>Non-profit:</h4>
+        <p>Best for solopreneurs and individuals seeking networking access through the Chamber.</p>
+        <ul>
+          <li>Business name listed in webite directory</li>
+          <li>Eligible to post events on Chamber's Event Calendar</li>
+          <li>Membership certificate, and business window sticker</li>
+          <li>Access to monthly newsletter</li>
+        </ul>
+        <h4>Bronze:</h4>
+        <p>Best for small to medium-sized businesses.</p>
+        <h5>Additional Benefits Include...</h5>
+        <ul>
+          <li>Listing on website directory including logo and information</li>
+          <li>Ribbon Cutting/Grand Opening event promotion</li>
+          <li>Eligible for ads in the newsletter</li>
+          <li>Eligible to list job openings on Chamber website</li>
+        </ul>
+        <h4>Silver:</h4>
+        <p>Best for medium to large-sized businesses.</p>
+        <h5>Additional Benefits Include...</h5>
+        <ul>
+          <li>Featured once annually on Chamber social media pages</li>
+          <li>Free booth provided at all Chamber events</li>
+          <li>Access to two free one-time use emails using our community mailing list for marketing</li>
+          <li>Tickets to annual Awards Event</li>
+        </ul>
+        <h4>Gold:</h4>
+        <p>Best for small to medium-sized businesses.</p>
+        <h5>Additional Benefits Include...</h5>
+        <ul>
+          <li>Boosted social media features</li>
+          <li>Logo feautured throughout Chamber website</li>
+          <li>Annual feature in Chamber newsletter</li>
+          <li>Annual meeting with Board of Directors</li>
+        </ul>
+      </section>
+    </main>
     <footer>
       <p>
         &copy; <span id="currYear"></span> KC - Chamber of Commerce | Hunter
