@@ -1,5 +1,5 @@
 body {
-    line-height: 1.5rem;
+    line-height: 1rem;
   }
   
   h1,
@@ -87,7 +87,7 @@ body {
   header img {
     display: block;
     padding-top: 1.25rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     margin-top: -2rem;
     margin-left: auto;
     margin-right: auto;
@@ -296,4 +296,26 @@ body {
 
   .kansas-city h2 {
     text-align: center;
+  }
+
+  .cards {
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  .cards img {
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .cards section p:nth-child(4) {
+    margin-top: -0.75rem;
+  }
+
+  .cards section {
+    padding: 0.5rem;
+    margin: 0 auto 2rem auto;
+    border: 2pt solid #02183C;
+    border-radius: 15px;
+    max-width: 400px;
   }
