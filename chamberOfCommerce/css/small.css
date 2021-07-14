@@ -24,7 +24,6 @@ nav {
 
 main {
   margin: 0 auto;
-  max-width: 60rem;
 }
 
 nav {
@@ -167,7 +166,7 @@ form {
 }
 
 form fieldset {
-  margin: 2rem 0.5rem 0.5rem 0.5;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
   border: 1px solid #02183c;
   border-radius: 10px;
   padding: 0.5rem 2%;
