@@ -5,7 +5,7 @@
             "street_address": "12401 E US Hwy 40",
             "city_address": "Independence, MO 64055",
             "phone_number": "(816) 356-1221",
-            "logo": "big boy logo.png",
+            "logo": "big_boy_logo.png",
             "website": "https://www.orderbigboyindependence.com/"
         },
         {
@@ -13,7 +13,7 @@
             "street_address": "4030 S Noland Rd",
             "city_address": "Independence, MO 64055",
             "phone_number": "(816) 521-6545",
-            "logo": "hawaiian bros logo.png",
+            "logo": "hawaiian_bros_logo.png",
             "website": "https://hawaiianbros.com/"
         },
         {
@@ -21,7 +21,7 @@
             "street_address": "1019 Armour Rd",
             "city_address": "North Kansas City, MO 64116",
             "phone_number": "(816) 541-8282",
-            "logo": "tays logo.png",
+            "logo": "tays_logo.png",
             "website": "https://m.facebook.com/taysburgershack/"
         },
         {
@@ -29,7 +29,7 @@
             "street_address": "20 E 5th St",
             "city_address": "Kansas City, MO 64106",
             "phone_number": "(816) 200-1639",
-            "logo": "local pig logo.png",
+            "logo": "local_pig_logo.png",
             "website": "https://www.localpig.com/"
         },
         {
@@ -37,7 +37,7 @@
             "street_address": "4056 Broadway Blvd",
             "city_address": "Kansas City, MO 64111",
             "phone_number": "(816) 561-7407",
-            "logo": "bunker logo.png",
+            "logo": "bunker_logo.png",
             "website": "https://www.bunkeronline.com/"
         },
         {
@@ -45,7 +45,7 @@
             "street_address": "1800 W 39th St",
             "city_address": "Kansas City, MO 64111",
             "phone_number": "(816) 531-9673",
-            "logo": "prosperos logo.png",
+            "logo": "prosperos_logo.png",
             "website": "http://prosperosbookstore.com/"
         },
         {
@@ -53,7 +53,7 @@
             "street_address": "4155 N Mulberry Dr",
             "city_address": "Kansas City, MO 64116",
             "phone_number": "(816) 349-9646",
-            "logo": "made in kc logo.png",
+            "logo": "made_in_kc_logo.png",
             "website": "https://madeinkc.co/"
         }
     ]
