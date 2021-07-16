@@ -44,7 +44,118 @@
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
-    <main></main>
+    <main class="home">
+      <h2>Welcome to the Kansas City - Chamber of Commerce!</h2>
+      <p class="page-desc">Goals of the Chamber</p>
+
+      <section class="weather">
+        <div class="current">
+          <h3>KC Weather Summary:</h3>
+          <p>Temp: <span id="temp"></span></p>
+          <p>Currently: <span id="weather-desc"></span></p>
+          <p>Humidity: <span id="humidity"></span></p>
+        </div>
+        <div class="forecast-div"></div>
+      </section>
+      <div class="container">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="images/skyline_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="images/union_station_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="images/wwi_museum_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="images/city_market_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="images/kauffman_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="images/arrowhead_wide.jpg" style="width:100%">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+  
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="images/skyline.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kansas City Skyline">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/union_station.jpg" style="width:100%" onclick="currentSlide(2)" alt="Downtown KC - Union Station">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/wwi_museum.jpg" style="width:100%" onclick="currentSlide(3)" alt="National World War I Museum">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/city_market.jpg" style="width:100%" onclick="currentSlide(4)" alt="Downtown KC - City Market">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/kauffman.jpg" style="width:100%" onclick="currentSlide(5)" alt="Kauffman Stadium - Home of the KC Royals">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/arrowhead.jpg" style="width:100%" onclick="currentSlide(6)" alt="Arrowhead Stadium - Home of the KC Chiefs">
+          </div>
+        </div>
+      </div>
+
+      <h3>This Month's Featured Businesses</h3>
+      <section class="adverts">
+        <div class="ad-1">
+          <img src="images/big_boy_logo.png" alt="BigBoy Burgers logo">
+          <p>Big Boy description</p>
+        </div>
+        <div class="ad-2">
+          <img src="images/hawaiian_bros_logo.png" alt="Hawaiian Bros logo">
+          <p>Hawaiian Bros description</p>
+        </div>
+        <div class="ad-3">
+          <img src="images/tays_logo.png" alt="Tay's Burger Shack logo">
+          <p>Tay's description</p>
+        </div>
+      </section>
+      <div class="contact">
+        <div class="contact-info">
+          <ul>
+            <li><strong>Kansas City - Chamber of Commerce</strong></li>
+            <li>
+              <img src="images/location.png" alt="Location Icon" />
+              52262 E 57th St.
+            </li>
+            <li>Kansas City, MO 64133</li>
+            <li></li>
+            <li>&phone; (800) 123-4567</li>
+            <li>&#9993; kc.chamber@kccoc.org</li>
+          </ul>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener"
+            ><img src="images/facebook.png" alt="facebook logo"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener"
+            ><img src="images/twitter.png" alt="twitter logo"
+          /></a>
+        </div>
+    </main>
     <footer>
       <p>
         &copy; <span id="currYear"></span> KC - Chamber of Commerce | Hunter
@@ -64,5 +175,7 @@
     <script src="js/toggleMenu.js"></script>
     <script src="js/currentDate.js"></script>
     <script src="js/currentYear.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/weatherAPI.js"></script>
   </body>
 </html>
