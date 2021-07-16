@@ -73,6 +73,7 @@ header h1 {
   margin-top: -2.5rem;
   color: white;
   text-align: center;
+  line-height: 1.5rem;
 }
 
 header #motto {
@@ -90,6 +91,7 @@ header img {
   margin-top: -2rem;
   margin-left: auto;
   margin-right: auto;
+  max-width: 200px;
   width: 40%;
 }
 
@@ -132,10 +134,28 @@ footer a:hover {
   text-align: center;
 }
 
+.contact-us form {
+  margin-top: -2.5rem;
+}
+
 .contact-info {
-  display: flex;
-  justify-content: center;
-  line-height: 1.5rem;
+  text-align: center;
+  line-height: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-info p:nth-child(3) {
+  margin-top: -0.35rem;
+  margin-bottom: 2rem;
+}
+
+.contact-info p:nth-child(6) {
+  margin-bottom: 2rem;
+}
+
+.contact-info iframe {
+  width: 100%;
+  max-width: 300px;
 }
 
 .social {
@@ -189,12 +209,6 @@ form div {
   padding-top: 1rem;
   color: #02183c;
   font-size: 1rem;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
 }
 
 form .top input,
@@ -257,13 +271,6 @@ form .top input:required:valid {
   padding: 0 0.5rem;
 }
 
-.population {
-  line-height: 1rem;
-  margin-top: -0.5rem;
-  margin-bottom: 2rem;
-  padding: 0 0.5rem;
-}
-
 .historical {
   padding: 0 0.5rem;
 }
@@ -292,12 +299,13 @@ form .top input:required:valid {
   max-width: 400px;
 }
 
-.kansas-city picture {
+.home picture {
   display: block;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
-.kansas-city picture img {
+.home picture img {
   width: 100%;
   max-width: 400px;
 }
@@ -313,8 +321,18 @@ form .top input:required:valid {
 .cards {
   text-align: center;
   padding: 1rem 0.5rem 0.5rem 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.directory-content {
   background-color: #710627;
   border-top: 20px solid #02183c;
+}
+
+.view-buttons {
+  display: none;
+  margin-bottom: -0.2rem;
 }
 
 .cards img {
@@ -333,11 +351,16 @@ form .top input:required:valid {
 .cards section {
   padding: 0.5rem;
   margin: 0 auto 2rem auto;
-  border: 2pt solid #02183c;
+  border: 4pt solid #02183c;
   border-radius: 15px;
   max-width: 300px;
   height: 350px;
   background-color: white;
+}
+
+.cards section:hover {
+  box-shadow: 0 0 30px #02183c;
+  transition: 0.5s;
 }
 
 .cards h2 {
@@ -351,6 +374,7 @@ form .top input:required:valid {
   padding: 0.5rem 1rem 0.5rem 1rem;
   background-color: #02183c;
   border-radius: 15px;
+  font-family: "Didact Gothic", Helvetica, sans-serif;
 }
 
 .cards a:hover {
@@ -376,6 +400,7 @@ h2 {
   text-align: center;
   color: #710627;
   font-size: 18pt;
+  line-height: 1.5rem;
 }
 
 .key {
@@ -471,6 +496,7 @@ h2 {
   padding: 2px 16px;
   color: white;
   font-family: "Crimson Text", Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .row:after {
@@ -499,4 +525,85 @@ h2 {
 
 .home h3 {
   text-align: center;
+}
+
+.forecast-div {
+  max-width: 48rem;
+  background-color: #d3d3d3;
+  width: 100%;
+  text-align: center;
+  margin: 1rem auto 2rem auto;
+  display: flex;
+  max-width: 400px;
+}
+
+.forecast {
+  flex: 1 1 100%;
+  border: 2px solid #333;
+  margin-left: -2px;
+}
+
+.forecast-day {
+  color: white;
+  margin-bottom: -1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid #333;
+  background-color: #02183c;
+  font-family: "Didact Gothic", Helvetica, sans-serif;
+}
+
+.forecast-temp {
+  margin-top: -1rem;
+  font-family: "Didact Gothic", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #710627;
+}
+
+.forecast-img {
+  padding-top: 0.5rem;
+  width: 100%;
+}
+
+.current {
+  max-width: 200px;
+  background-color: #f8ecc6;
+  font-family: "Didact Gothic", Helvetica, sans-serif;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+  margin: 0 auto;
+  border: 2px solid #02183c;
+  border-radius: 10px;
+}
+
+.current p, .current span {
+  font-family: "Didact Gothic", Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.current p {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.current h4 {
+  color: #02183c;
+  border-bottom: 2px solid #710627;
+  padding-left: 0.2rem;
+}
+
+.weather h4:nth-child(2) {
+  color: #02183c;
+  text-align: center;
+  margin-bottom: -0.75rem;
+}
+
+.adverts {
+  display: block;
+  text-align: center;
+}
+
+.adverts img {
+  max-width: 250px;
+  width: 100%;
 }

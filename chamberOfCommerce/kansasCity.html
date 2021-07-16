@@ -46,31 +46,70 @@
     </nav>
     <main class="kansas-city">
       <h2>Welcome to Kanas City!</h2>
-      <picture>
-        <source media="(max-width: 608px)" srcset="images/kansas_city608.jpg" />
-        <source media="(max-width: 810px)" srcset="images/kansas_city810.jpg" />
-        <img
-          src="images/kansas_city1080.jpg"
-          alt="Kansas City bird's eye view"
-          class="hero-img"
-        />
-      </picture>
-      <section class="demographics">
-        <h3>Demographics:</h3>
-        <p><strong>Total Population:</strong> 2,185,120</p>
-        <p><strong>Population by Metropolitan Area</strong></p>
-        <div class="population">
-          <p><strong>Overland Park:</strong> 179,000</p>
-          <p><strong>Kansas City:</strong> 147,000</p>
-          <p><strong>Olathe:</strong> 130,000</p>
-          <p><strong>Independence:</strong> 117,000</p>
-          <p><strong>Lee's Summit:</strong> 93,000</p>
-          <p><strong>Shawnee:</strong> 64,000</p>
-          <p><strong>Blue Springs:</strong> 53,000</p>
-          <p><strong>Lenexa:</strong> 50,000</p>
-          <p><strong>Liberty:</strong> 31,000</p>
-          <p><strong>Raytown:</strong> 29,000</p>
+      
+      <div class="container">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="images/skyline_wide.jpg" style="width:100%">
         </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="images/union_station_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="images/wwi_museum_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="images/city_market_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="images/kauffman_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="images/arrowhead_wide.jpg" style="width:100%">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+  
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="images/skyline.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kansas City Skyline">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/union_station.jpg" style="width:100%" onclick="currentSlide(2)" alt="Downtown KC - Union Station">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/wwi_museum.jpg" style="width:100%" onclick="currentSlide(3)" alt="National World War I Museum">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/city_market.jpg" style="width:100%" onclick="currentSlide(4)" alt="Downtown KC - City Market">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/kauffman.jpg" style="width:100%" onclick="currentSlide(5)" alt="Kauffman Stadium - Home of the KC Royals">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/arrowhead.jpg" style="width:100%" onclick="currentSlide(6)" alt="Arrowhead Stadium - Home of the KC Chiefs">
+          </div>
+        </div>
+      </div>
+      <section class="demographics">
+        <p><strong>Total Population:</strong> 2,185,120</p>
+        <p><strong>Year Founded:</strong> 1853</p>
       </section>
       <section class="historical">
         <h3>Historical Information:</h3>
@@ -190,7 +229,7 @@
         <a href="attributions.html">Attributions</a>
       </p>
       <p>
-        <span id="currDate"></span>
+        <span id="modified"></span>
       </p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
@@ -198,7 +237,8 @@
       WebFont.load({ google: { families: ["Didact Gothic", "Crimson Text"] } });
     </script>
     <script src="js/toggleMenu.js"></script>
-    <script src="js/currentDate.js"></script>
+    <script src="js/modifiedDate.js"></script>
     <script src="js/currentYear.js"></script>
+    <script src="js/slideshow.js"></script>
   </body>
 </html>

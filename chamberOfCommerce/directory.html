@@ -46,8 +46,21 @@
     </nav>
     <main class="directory">
       <h2>Directory</h2>
-      <p class="page-desc">Here you can find a listing of local businesses in the area and how to find them.</p>
+      <p class="page-desc">
+        Here you can find a listing of local businesses in the area and how to
+        find them.
+      </p>
+      <div class="view-buttons">
+        <button onclick="gridView()">
+          <img src="images/grid_view.png" alt="Grid view icon" />
+        </button>
+        <button onclick="listView()">
+          <img src="images/list_view.png" alt="List view icon" />
+        </button>
+      </div>
+      <section class="directory-content">
       <div class="cards"></div>
+      </section>
     </main>
     <footer>
       <p>
@@ -58,7 +71,7 @@
         <a href="attributions.html">Attributions</a>
       </p>
       <p>
-        <span id="currDate"></span>
+        <span id="modified"></span>
       </p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
@@ -66,8 +79,9 @@
       WebFont.load({ google: { families: ["Didact Gothic", "Crimson Text"] } });
     </script>
     <script src="js/toggleMenu.js"></script>
-    <script src="js/currentDate.js"></script>
+    <script src="js/modifiedDate.js"></script>
     <script src="js/currentYear.js"></script>
     <script src="js/directory-cards.js"></script>
+    <script src="js/directoryView.js"></script>
   </body>
 </html>

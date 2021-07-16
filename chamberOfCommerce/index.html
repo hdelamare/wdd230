@@ -46,77 +46,33 @@
     </nav>
     <main class="home">
       <h2>Welcome to the Kansas City - Chamber of Commerce!</h2>
-      <p class="page-desc">Goals of the Chamber</p>
+      <p class="page-desc">
+        We're dedicated to bettering the businesses that are located here in the KC area.
+        We believe that our local businesses are the lifeblood of this city—through them, 
+        we can help to build better people, better businesses, and a better community.
+      </p>
+
+      <picture>
+        <source media="(max-width: 608px)" srcset="images/kansas_city608.jpg" />
+        <source media="(max-width: 810px)" srcset="images/kansas_city810.jpg" />
+        <img
+          src="images/kansas_city1080.jpg"
+          alt="Kansas City bird's eye view"
+          class="hero-img"
+        />
+      </picture>
 
       <section class="weather">
         <div class="current">
-          <h3>KC Weather Summary:</h3>
+          <h4>KC Weather Summary:</h4>
           <p>Temp: <span id="temp"></span></p>
           <p>Currently: <span id="weather-desc"></span></p>
           <p>Humidity: <span id="humidity"></span></p>
         </div>
-        <div class="forecast-div"></div>
+        <h4>3-Day Forecast</h4>
+        <div class="forecast-div">
+        </div>
       </section>
-      <div class="container">
-
-        <div class="mySlides">
-          <div class="numbertext">1 / 6</div>
-            <img src="images/skyline_wide.jpg" style="width:100%">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">2 / 6</div>
-            <img src="images/union_station_wide.jpg" style="width:100%">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">3 / 6</div>
-            <img src="images/wwi_museum_wide.jpg" style="width:100%">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">4 / 6</div>
-            <img src="images/city_market_wide.jpg" style="width:100%">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">5 / 6</div>
-            <img src="images/kauffman_wide.jpg" style="width:100%">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">6 / 6</div>
-            <img src="images/arrowhead_wide.jpg" style="width:100%">
-        </div>
-      
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-  
-        <div class="row">
-          <div class="column">
-            <img class="demo cursor" src="images/skyline.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kansas City Skyline">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="images/union_station.jpg" style="width:100%" onclick="currentSlide(2)" alt="Downtown KC - Union Station">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="images/wwi_museum.jpg" style="width:100%" onclick="currentSlide(3)" alt="National World War I Museum">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="images/city_market.jpg" style="width:100%" onclick="currentSlide(4)" alt="Downtown KC - City Market">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="images/kauffman.jpg" style="width:100%" onclick="currentSlide(5)" alt="Kauffman Stadium - Home of the KC Royals">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="images/arrowhead.jpg" style="width:100%" onclick="currentSlide(6)" alt="Arrowhead Stadium - Home of the KC Chiefs">
-          </div>
-        </div>
-      </div>
 
       <h3>This Month's Featured Businesses</h3>
       <section class="adverts">
@@ -135,17 +91,15 @@
       </section>
       <div class="contact">
         <div class="contact-info">
-          <ul>
-            <li><strong>Kansas City - Chamber of Commerce</strong></li>
-            <li>
+          <p><strong>Kansas City - Chamber of Commerce</strong></p>
+            <p>
               <img src="images/location.png" alt="Location Icon" />
               52262 E 57th St.
-            </li>
-            <li>Kansas City, MO 64133</li>
-            <li></li>
-            <li>&phone; (800) 123-4567</li>
-            <li>&#9993; kc.chamber@kccoc.org</li>
-          </ul>
+            </p>
+            <p>Kansas City, MO 64133</p>
+            <p></li>
+            <p>&phone; (800) 123-4567</p>
+            <p>&#9993; kc.chamber@kccoc.org</p>
         </div>
         <div class="social">
           <a href="https://www.facebook.com" target="_blank" rel="noopener"
@@ -165,7 +119,7 @@
         <a href="attributions.html">Attributions</a>
       </p>
       <p>
-        <span id="currDate"></span>
+        Last Modified: <span id="modified"></span>
       </p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
@@ -173,9 +127,8 @@
       WebFont.load({ google: { families: ["Didact Gothic", "Crimson Text"] } });
     </script>
     <script src="js/toggleMenu.js"></script>
-    <script src="js/currentDate.js"></script>
+    <script src="js/modifiedDate.js"></script>
     <script src="js/currentYear.js"></script>
-    <script src="js/slideshow.js"></script>
     <script src="js/weatherAPI.js"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@ fetch(apiWeatherURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-    document.getElementById('temp').textContent = jsObject.current.temp;
+    document.getElementById('temp').textContent = jsObject.current.temp.toFixed(0) + '°F';
     document.getElementById('weather-desc').textContent = jsObject.current.weather[0].main;
     document.getElementById('humidity').textContent = jsObject.current.humidity;
 
@@ -19,7 +19,7 @@ fetch(apiWeatherURL)
             forecastWeekDay = new Date(jsObject.daily[i].dt * 1000).toDateString();
             console.log(forecastWeekDay)
 
-            forecastDay.textContent = forecastWeekDay.substring(0, 3);
+            forecastDay.textContent = forecastWeekDay.substring(0, 3).toUpperCase();
             // forecastDayName = forecastWeekDay.getDay();
             // forecastDay.textContent = days[forecastDayName].substring(0, 3);
             
