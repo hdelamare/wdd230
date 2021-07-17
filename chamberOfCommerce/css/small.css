@@ -446,6 +446,8 @@ h2 {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
 }
 
 .mySlides {
