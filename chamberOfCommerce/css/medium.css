@@ -95,6 +95,7 @@
 
   .current {
     grid-column: 1/2;
+    margin-left: 0;
   }
 
   .forecast-box {
@@ -116,5 +117,21 @@
     .adverts {
       grid-template-columns: 1fr 1fr 1fr;
     }
+  }
+
+  .historical, .city-events {
+    max-width: 55rem;
+    margin: 0 auto;
+  }
+
+  .key ul, .key h5 {
+    max-width: 25rem;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  .key h5 {
+    margin-top: 1.5rem;
+    margin-bottom: -0.5rem;
   }
 }

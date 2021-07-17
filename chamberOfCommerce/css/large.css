@@ -7,4 +7,8 @@
   .home picture img {
       max-width: 1000px;
   }
+
+  .historical, .city-events {
+    max-width: 60rem;
+  }
 }
