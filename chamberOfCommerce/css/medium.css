@@ -79,4 +79,42 @@
   .navigation li:nth-child(6) {
     border-right: 1px solid #02183c;
   }
+
+  .home picture img {
+    max-width: 800px;
+  }
+
+  .weather {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+
+  .current {
+    grid-column: 1/2;
+  }
+
+  .forecast-box {
+    grid-column: 2/3;
+  }
+
+  .home h3 {
+    font-size: 28px;
+    color: white;
+    background-color: #710627;
+    padding: 1rem;
+  }
+
+  .adverts {
+    margin-top: -1.75rem;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .adverts {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
 }
