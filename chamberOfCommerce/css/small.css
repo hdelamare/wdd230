@@ -245,7 +245,8 @@ form .top select {
 }
 
 .submitBtn:hover {
-  background-color: #6d2c40;
+  opacity: 0.7;
+  transition: 0.3s;
 }
 
 .buttonHolder {

@@ -11,4 +11,24 @@
   .historical, .city-events {
     max-width: 60rem;
   }
+
+  .key p {
+    font-size: 16px;
+  }
+
+  .key h3 {
+    font-size: 22px;
+  }
+
+  .key h4 {
+    font-size: 18px;
+  }
+
+  .key h5 {
+    font-size: 16px;
+  }
+
+  .submitBtn {
+    font-size: 18px;
+  }
 }
