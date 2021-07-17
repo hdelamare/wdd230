@@ -13,13 +13,21 @@
     let minutes = d.getMinutes();
     let time = 0
 
-    if (hours > 12) {
-        time = (hours - 12) + ':' + minutes + " PM"
-    } else if (hours == 12) {
-        time = hours + ':' + minutes + " PM"
+    if (minutes < 10) {
+        minutes = '0' + minutes;
     } else {
-        time = hours + ':' + minutes + " AM"
+        minutes = minutes;
     }
+
+    if (hours > 12) {
+        time = (hours - 12) + ':' + minutes + " PM";
+    } else if (hours == 12) {
+        time = hours + ':' + minutes + " PM";
+    } else {
+        time = hours + ':' + minutes + " AM";
+    }
+
+    
 
 
     let dateFormatted = `${dayName}, ${date} ${monthName} ${year} ${time}`;

@@ -17,11 +17,8 @@ fetch(apiWeatherURL)
             forecastDay.setAttribute('class', 'forecast-day');
             
             forecastWeekDay = new Date(jsObject.daily[i].dt * 1000).toDateString();
-            console.log(forecastWeekDay)
 
             forecastDay.textContent = forecastWeekDay.substring(0, 3).toUpperCase();
-            // forecastDayName = forecastWeekDay.getDay();
-            // forecastDay.textContent = days[forecastDayName].substring(0, 3);
             
             forecastBox.appendChild(forecastDay);
 
@@ -47,10 +44,34 @@ fetch(apiWeatherURL)
     }
     
     if (jsObject.alerts) {
-        console.log('There is a weather alert')
+      let banner = document.createElement('div');
+      let sender = document.createElement('div');
+      let event = document.createElement('h3');
+      let event_desc = document.createElement('p');
+      let close_button = document.createElement('button');
+
+      close_button.setAttribute('onclick', 'bannerClose()');
+      close_button.textContent = "Close";
+  
+      sender.textContent = jsObject.alerts[0].sender_name;
+      event.textContent = jsObject.alerts[0].event;
+      event_desc.textContent = jsObject.alerts[0].description;
+  
+      banner.appendChild(sender);
+      banner.appendChild(event);
+      banner.appendChild(event_desc);
+      banner.appendChild(close_button);
+  
+      document.querySelector('.banner').appendChild(banner);
+      document.querySelector('.banner').style.display = 'block';
     }
 
     else {
-        console.log('There are no alerts')
+      document.querySelector('.banner').style.display = 'none';
     }
   });
+
+
+  function bannerClose() {
+    document.querySelector('.banner').style.display = "none";
+  }

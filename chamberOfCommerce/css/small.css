@@ -626,7 +626,7 @@ h2 {
 
 .ad {
   background-color: white;
-  max-width: 305px;
+  max-width: 310px;
   line-height: 1.5rem;
   padding: 0.5rem;
   margin: 1rem auto;
@@ -669,4 +669,76 @@ h2 {
 .cta a:hover {
   transition: 0.2s;
   opacity: 0.7;
+}
+
+.home .city-events {
+  max-width: 35rem;
+  margin: 0 auto;
+  background-color: #5d6f69;
+  padding: 0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.home .city-events h3 {
+  background-color: #02183c;
+}
+
+.home .city-events h4 {
+  margin-left: 1rem;
+  color: white;
+}
+
+.home .contact, .home .social {
+  background-color: #f8ecc6;
+}
+
+.home .contact {
+  padding-top: 0.25rem;
+}
+
+.home .contact p {
+  line-height: 0.5rem;
+}
+
+.home .social {
+  margin-top: -2rem;
+  padding-bottom: 1rem;
+}
+
+.banner {
+  background-color: #710627;
+  margin-bottom: -1rem;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.banner h3 {
+  margin-top: 0.25rem;
+}
+
+.banner p {
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  margin-top: -0.5rem;
+}
+
+.banner button {
+  margin-bottom: 2rem;
+  font-family: "Didact Gothic", Helvetica, sans-serif;
+  background-color: #57605b;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #5d6f69;
+  font-size: 18px;
+  color: white;
+}
+
+.banner button:hover {
+  background-color: #5d6f69;
+  transition: 0.2s;
 }
