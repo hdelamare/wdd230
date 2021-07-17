@@ -743,3 +743,7 @@ h2 {
   background-color: #5d6f69;
   transition: 0.2s;
 }
+
+.attributions h2{
+  text-align: left;
+}
